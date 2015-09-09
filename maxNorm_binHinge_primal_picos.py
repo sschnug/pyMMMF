@@ -1,3 +1,8 @@
+"""
+"Maximum-Margin Matrix Factorization (Srebro, Rennie, Jaakkola)
+-> Original Matlab-code: http://ttic.uchicago.edu/~nati/mmmf/code.html
+"""
+
 import cvxopt as cvx
 import picos as pic
 import time
