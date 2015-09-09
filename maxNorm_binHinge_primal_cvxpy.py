@@ -1,3 +1,8 @@
+"""
+"Maximum-Margin Matrix Factorization (Srebro, Rennie, Jaakkola)
+-> Original Matlab-code: http://ttic.uchicago.edu/~nati/mmmf/code.html
+"""
+
 from cvxpy import *
 import numpy as np
 import random
