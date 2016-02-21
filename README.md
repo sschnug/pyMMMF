@@ -11,5 +11,5 @@ There are two different versions in this repo: one is based on cvxpy, the other 
 convex optimization problems!
 
 ## Is there an alternative for large datasets / real-world applications?
-Because the optimization problem is convex (with some mild assumptions), one could use Stochastic Gradient Descent. I implemented this [here](https://github.com/sschnug/MaxNormRegCollaborativeFiltering_SGD) (again: based on some academic paper).
+Because the optimization problem is convex (with some mild assumptions), one could use Stochastic Gradient Descent. The only downside of this approach is the need for a learning-speed parameter which needs to be tuned. I implemented this [here](https://github.com/sschnug/MaxNormRegCollaborativeFiltering_SGD) (again: based on some academic paper).
 This approach is fast and can be used on the Netflix dataset (collaborative filtering; sparse matrix with 100M entries; not publicly available).
